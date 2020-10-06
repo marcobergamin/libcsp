@@ -1,0 +1,34 @@
+/* WARNING! All changes made to this file will be lost! */
+
+#ifndef _INCLUDE_CSP_CSP_AUTOCONFIG_H_
+#define _INCLUDE_CSP_CSP_AUTOCONFIG_H_
+
+#define GIT_REV "v1.2-3-g44bcdf7"
+#cmakedefine01 CSP_FREERTOS
+#cmakedefine01 CSP_POSIX
+#cmakedefine01 CSP_WINDOWS
+#cmakedefine01 CSP_MACOSX
+#cmakedefine01 CSP_DEBUG
+#cmakedefine01 CSP_VERBOSE
+#cmakedefine CSP_USE_RDP
+#cmakedefine01 CSP_USE_CRC32
+#cmakedefine CSP_USE_HMAC
+#cmakedefine CSP_USE_XTEA
+#cmakedefine CSP_USE_PROMISC
+#cmakedefine CSP_USE_QOS
+#cmakedefine CSP_CONN_MAX
+#cmakedefine CSP_CONN_QUEUE_LENGTH
+#cmakedefine CSP_FIFO_INPUT
+#cmakedefine CSP_MAX_BIND_PORT
+#cmakedefine CSP_RDP_MAX_WINDOW
+#cmakedefine CSP_PADDING_BYTES
+#cmakedefine01 CSP_LOG_LEVEL_DEBUG
+#cmakedefine01 CSP_LOG_LEVEL_INFO
+#cmakedefine01 CSP_LOG_LEVEL_WARN
+#cmakedefine01 CSP_LOG_LEVEL_ERROR
+#cmakedefine CSP_LITTLE_ENDIAN 1
+#cmakedefine CSP_BIG_ENDIAN 1
+#cmakedefine01 CSP_HAVE_STDBOOL_H
+#cmakedefine01 CSP_USE_DEBUG_COLOR
+
+#endif /* _INCLUDE_CSP_CSP_AUTOCONFIG_H_ */
